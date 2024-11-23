@@ -31,7 +31,7 @@ import { motion } from "framer-motion";
 const aboutStats = [
   { label: "Years of experience", value: "3+" },
   { label: "Technologies mastered", value: "10+" },
-  { label: "Articles & Projects", value: "20+" },
+  { label: "Projects", value: "20+" },
 ];
 
 // const projects = [
@@ -342,7 +342,7 @@ export default function Home() {
             data-scroll-position="top"
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
-            <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
+            {/* <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
               I&apos;m an experienced full-stack developer proficient in{" "}
               <Link
                 href="https://create.t3.gg/"
@@ -356,7 +356,20 @@ export default function Home() {
               design process; from ideation and wireframing, through
               prototyping, to the delivery of the final product, all while
               efficiently collaborating with cross-functional teams.
+            </h2> */}
+
+            <h2 className="py-16 pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
+              I&apos;m a passionate Software Engineering student with a strong focus on{" "}
+              <Link
+                href="https://www.python.org/"
+                target="_blank"
+                className="underline"
+              >
+                Python, AI, and web development
+              </Link>{" "}
+              . I thrive on solving complex problems, developing innovative solutions, and constantly expanding my skill set. Whether it’s through coding, creating content, or offering insights into emerging technologies, I aim to make a meaningful impact in the tech world.
             </h2>
+
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
                 <div
