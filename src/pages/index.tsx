@@ -26,6 +26,7 @@ import {
 } from "@/components/ui/carousel";
 import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
+import { FaLinkedin, FaMedium, FaBlogger, FaGithubSquare } from "react-icons/fa"; // Example from react-icons
 
 
 const aboutStats = [
@@ -174,6 +175,48 @@ const projects = [
 //   },
 // ];
 
+
+function SocialIcons() {
+  const socialLinks = [
+    { href: "https://www.linkedin.com/in/jaweria-batool/", icon: <FaLinkedin size={40} />, tooltip: "LinkedIn" },
+    { href: "https://github.com/Jaweria-B", icon: <FaGithubSquare size={40} />, tooltip: "GitHub" },
+    { href: "https://medium.com/@jaweria_", icon: <FaMedium size={40} />, tooltip: "Medium" },
+    { href: "https://hi-jaweria.blogspot.com/", icon: <FaBlogger size={40} />, tooltip: "Blogger" },
+  ];
+
+  return (
+    <div
+      data-scroll
+      data-scroll-direction="horizontal"
+      data-scroll-speed=".09"
+      className="flex flex-row items-center space-x-6"
+    >
+      {socialLinks.map((social, index) => (
+        <a
+          key={index}
+          href={social.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative group"
+        >
+          <span
+            className="transition border border-input bg-background flex items-center justify-center text-xs px-2.5 py-2 rounded-xl hover:-translate-y-1 hover:bg-primary duration-300"
+          >
+            {social.icon}
+          </span>
+          {/* Tooltip */}
+          <span
+            className="absolute bottom-12 left-1/2 -translate-x-1/2 bg-gray-700 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            {social.tooltip}
+          </span>
+        </a>
+      ))}
+    </div>
+  );
+}
+
+
 export default function Home() {
   const refScrollContainer = useRef(null);
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
@@ -293,6 +336,26 @@ export default function Home() {
                 Passionate Software Engineering student and freelance writer, blending tech expertise with creative storytelling to inspire and inform.
               </p>
             </div>
+            {/* <div
+              data-scroll
+              data-scroll-direction="horizontal"
+              data-scroll-speed=".09"
+              className="flex flex-row items-center space-x-1.5"
+            >
+              <span className={styles.pill}>
+                <FaLinkedin className="text-white" size={35} />
+              </span>
+              <span className={styles.pill}>
+                <FaGithubSquare className="text-white" size={35} />
+              </span>
+              <span className={styles.pill}>
+                <FaMedium className="text-white" size={35} />
+              </span>
+              <span className={styles.pill}>
+                <FaBlogger className="text-white" size={35} />
+              </span>
+            </div> */}
+            {SocialIcons()}
             <span
               data-scroll
               data-scroll-enable-touch-speed
