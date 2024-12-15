@@ -111,16 +111,16 @@ const services = [
 
 const projects = [
   {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
+    title: "Monsters Rolodex",
+    description: "ReactJs website displaying cards featuring monsters along with their names and emails",
+    image: "/assets/giphy-2.webp",
+    href: "https://monsters-rolodex-jb.vercel.app/",
   },
   {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
-    href: "#",
+    title: "Crwn Clothing",
+    description: "E-commerce platform for selling digital products",
+    image: "/assets/crwn-clothing.webm",
+    href: "https://crwn-clothing-jb.netlify.app/",
   },
   {
     title: "TranslateBot",
