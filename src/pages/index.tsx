@@ -111,16 +111,34 @@ const services = [
 
 const projects = [
   {
-    title: "Monsters Rolodex",
-    description: "ReactJs website displaying cards featuring monsters along with their names and emails",
-    image: "/assets/giphy-2.webp",
-    href: "https://monsters-rolodex-jb.vercel.app/",
+  title: "Crwn Clothing",
+  description: "E-commerce platform for stylish clothing.",
+  image: "/assets/crwn-clothing.webm",
+  href: "https://crwn-clothing-jb.netlify.app/",
   },
   {
-    title: "Crwn Clothing",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/crwn-clothing.webm",
-    href: "https://crwn-clothing-jb.netlify.app/",
+  title: "TinDog",
+  description: "Interactive web app for finding perfect matches for your dog.",
+  image: "/assets/tindog.webm",  
+  href: "https://jaweria-b.github.io/TinDog/"
+  },
+  {
+  title: "To Do List",
+  description: "To-Do List application to view, add, and manage tasks efficiently.",
+  image: "/assets/todolist.webm",
+  href: "https://github.com/Jaweria-B/to-do-list"
+  },
+  {
+    title: "Monsters Rolodex",
+  description: "A React.js app showcasing monster cards with names and emails.",
+  image: "/assets/giphy-2.webp",
+  href: "https://monsters-rolodex-jb.vercel.app/",
+  },
+  {
+  title: "Airline Booking System",
+  description: "Airline Booking System to view available flights, see flight details, add passengers to flights, and manage accounts.",
+  image: "/assets/flights.webm",
+  href: "https://github.com/Jaweria-B/airline"
   },
   {
     title: "TranslateBot",
