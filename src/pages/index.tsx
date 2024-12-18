@@ -141,6 +141,24 @@ const projects = [
   href: "https://github.com/Jaweria-B/airline"
   },
   {
+    "title": "Task Manager",
+    "description": "Interactive web app to dynamically add and manage tasks.",
+    "image": "/assets/taskslist.png",
+    "href": "https://github.com/Jaweria-B/tasks-list"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A clone of personal portfolio showcasing skills, projects, and contact information.",
+    "image": "/assets/greenresume.png",
+    "href": "https://github.com/Jaweria-B/green-cloudy-portfolio-clone"
+  },
+  {
+    "title": "Resume Site",
+    "description": "A simple personal website showcasing my profile, skills, and interests.",
+    "image": "/assets/htmlresume.png",
+    "href": "https://github.com/Jaweria-B/cv"
+  },
+  {
     title: "TranslateBot",
     description: "Powerful Multilingual Translation Bot for Discord",
     image: "/assets/translate_bot.webm",
