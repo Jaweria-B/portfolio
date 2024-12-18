@@ -141,6 +141,18 @@ const projects = [
   href: "https://github.com/Jaweria-B/airline"
   },
   {
+    "title": "Is It New Year?",
+    "description": "A Django-based app that checks if today is New Year's Day.",
+    "image": "/assets/no.png",
+    "href": "https://github.com/Jaweria-B/is-it-new-year"
+  },
+  {
+    "title": "React Counter Game",
+    "description": "A fun math game built with React where users solve problems to reach a target score.",
+    "image": "/assets/mathtest.png",
+    "href": "https://github.com/Jaweria-B/math-addition-test/"
+  },
+  {
     "title": "Task Manager",
     "description": "Interactive web app to dynamically add and manage tasks.",
     "image": "/assets/taskslist.png",
@@ -157,18 +169,6 @@ const projects = [
     "description": "A simple personal website showcasing my profile, skills, and interests.",
     "image": "/assets/htmlresume.png",
     "href": "https://github.com/Jaweria-B/cv"
-  },
-  {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
-    image: "/assets/translate_bot.webm",
-    href: "https://translatebot.app/",
-  },
-  {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
-    image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
   },
   {
     title: "This website",
