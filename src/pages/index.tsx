@@ -141,22 +141,28 @@ const projects = [
   href: "https://github.com/Jaweria-B/airline"
   },
   {
-    "title": "Is It New Year?",
-    "description": "A Django-based app that checks if today is New Year's Day.",
-    "image": "/assets/no.png",
-    "href": "https://github.com/Jaweria-B/is-it-new-year"
+    title: "Is It New Year?",
+    description: "A Django-based app that checks if today is New Year's Day.",
+    image: "/assets/no.png",
+    href: "https://github.com/Jaweria-B/is-it-new-year"
   },
   {
-    "title": "React Counter Game",
-    "description": "A fun math game built with React where users solve problems to reach a target score.",
-    "image": "/assets/mathtest.png",
-    "href": "https://github.com/Jaweria-B/math-addition-test/"
+    title: "React Counter Game",
+    description: "A fun math game built with React where users solve problems to reach a target score.",
+    image: "/assets/mathtest.png",
+    href: "https://github.com/Jaweria-B/math-addition-test/"
   },
   {
-    "title": "Task Manager",
-    "description": "Interactive web app to dynamically add and manage tasks.",
-    "image": "/assets/taskslist.png",
-    "href": "https://github.com/Jaweria-B/tasks-list"
+    title: "Task Manager",
+    description: "Interactive web app to dynamically add and manage tasks.",
+    image: "/assets/taskslist.png",
+    href: "https://github.com/Jaweria-B/tasks-list"
+  },
+  {
+    title: "Message Service",
+    description: "A simple Node.js and Express project for displaying and managing messages.",
+    image: "/assets/message-service.png",
+    href: "https://github.com/Jweria-B/message-service",
   },
   {
     "title": "Portfolio Website",
@@ -176,6 +182,12 @@ const projects = [
     image: "/assets/portfolio.webm",
     href: "https://github.com/wendoj/portfolio",
   },
+  {
+    title: "Hello World",
+    description: "A simple Django project that provides a basic greeting interface with dynamic URLs.",
+    image: "/assets/hello.png",
+    href: "https://github.com/jaweria-b/hello-world",
+  }  
 ];
 
 // const services = [
