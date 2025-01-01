@@ -123,28 +123,40 @@ const projects = [
   href: "https://jaweria-b.github.io/TinDog/"
   },
   {
-  title: "To Do List",
-  description: "To-Do List application to view, add, and manage tasks efficiently.",
-  image: "/assets/todolist.webm",
-  href: "https://github.com/Jaweria-B/to-do-list"
+    title: "To Do List",
+    description: "To-Do List application to view, add, and manage tasks efficiently.",
+    image: "/assets/todolist.webm",
+    href: "https://github.com/Jaweria-B/to-do-list"
   },
   {
     title: "Monsters Rolodex",
-  description: "A React.js app showcasing monster cards with names and emails.",
-  image: "/assets/giphy-2.webp",
-  href: "https://monsters-rolodex-jb.vercel.app/",
+    description: "A React.js app showcasing monster cards with names and emails.",
+    image: "/assets/giphy-2.webp",
+    href: "https://monsters-rolodex-jb.vercel.app/",
   },
   {
-  title: "Airline Booking System",
-  description: "Airline Booking System to view available flights, see flight details, add passengers to flights, and manage accounts.",
-  image: "/assets/flights.webm",
-  href: "https://github.com/Jaweria-B/airline"
+    title: "Airline Booking System",
+    description: "Airline Booking System to view available flights, see flight details, add passengers to flights, and manage accounts.",
+    image: "/assets/flights.webm",
+    href: "https://github.com/Jaweria-B/airline"
+  },
+  {
+    title: "social-media-post-mechanism",
+    description: "A project simulating posting of social media content.",
+    image: "/assets/scrolling.webm",
+    href: "https://github.com/Jaweria-B/social-media-posts-mechanism"
   },
   {
     title: "Is It New Year?",
     description: "A Django-based app that checks if today is New Year's Day.",
     image: "/assets/no.png",
     href: "https://github.com/Jaweria-B/is-it-new-year"
+  },
+  {
+    title: "singlepages",
+    description: "A collection of Single Page Applications demonstrating various content rendering techniques.",
+    image: "/assets/pages.png",
+    href: "https://github.com/Jaweria-B/singlespages" 
   },
   {
     title: "React Counter Game",
