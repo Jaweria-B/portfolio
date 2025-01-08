@@ -135,6 +135,18 @@ const projects = [
     href: "https://monsters-rolodex-jb.vercel.app/",
   },
   {
+    "title": "Drum Kit",
+    "description": "An interactive drum kit which can play drum sounds on clicking buttons or pressing keyboard keys.",
+    "image": "/assets/drum-kit.png",
+    "href": "https://jaweria-b.github.io/Drum-Kit/"
+  },
+  {
+    "title": "Simon Game",
+    "description": "A classic memory game recreated using HTML, CSS, JavaScript, and jQuery.",
+    "image": "/assets/simon.png",
+    "href": "https://jaweria-b.github.io/Simon-Game/"
+  },
+  {
     title: "Airline Booking System",
     description: "Airline Booking System to view available flights, see flight details, add passengers to flights, and manage accounts.",
     image: "/assets/flights.webm",
@@ -156,7 +168,7 @@ const projects = [
     title: "singlepages",
     description: "A collection of Single Page Applications demonstrating various content rendering techniques.",
     image: "/assets/pages.png",
-    href: "https://github.com/Jaweria-B/singlespages" 
+    href: "https://github.com/Jaweria-B/singlepages" 
   },
   {
     title: "React Counter Game",
