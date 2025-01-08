@@ -123,12 +123,6 @@ const projects = [
   href: "https://jaweria-b.github.io/TinDog/"
   },
   {
-    title: "To Do List",
-    description: "To-Do List application to view, add, and manage tasks efficiently.",
-    image: "/assets/todolist.webm",
-    href: "https://github.com/Jaweria-B/to-do-list"
-  },
-  {
     title: "Monsters Rolodex",
     description: "A React.js app showcasing monster cards with names and emails.",
     image: "/assets/giphy-2.webp",
@@ -145,6 +139,24 @@ const projects = [
     "description": "A classic memory game recreated using HTML, CSS, JavaScript, and jQuery.",
     "image": "/assets/simon.png",
     "href": "https://jaweria-b.github.io/Simon-Game/"
+  },
+  {
+    "title": "DNA Nucleotide Count Web App",
+    "description": "A web app built with Streamlit to analyze DNA sequences by counting nucleotide composition.",
+    "image": "/assets/dna.png",
+    "href": "https://dna-nucleotide-count-jb.streamlit.app/"
+  },
+  {
+    "title": "Simple Iris Flower Prediction App",
+    "description": "A Streamlit app that predicts Iris flower types using user-provided dimensions for sepal and petal.",
+    "image": "/assets/iris.png",
+    "href": "https://iris-flower-classification-jb.streamlit.app"
+  },  
+  {
+    title: "To Do List",
+    description: "To-Do List application to view, add, and manage tasks efficiently.",
+    image: "/assets/todolist.webm",
+    href: "https://github.com/Jaweria-B/to-do-list"
   },
   {
     title: "Airline Booking System",
