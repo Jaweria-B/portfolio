@@ -687,7 +687,7 @@ export default function Home() {
                 Mahine Learning
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-                I've explored various machine learning techniques, creating intuitive applications that turn data into actionable insights. Here are some of my favorite projects:
+                I&apos;ve explored various machine learning techniques, creating intuitive applications that turn data into actionable insights. Here are some of my favorite projects:
               </p>
 
               {/* Carousel */}
@@ -773,7 +773,7 @@ export default function Home() {
                 AI
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              With a passion for artificial intelligence, I've built projects that showcase innovative AI solutions and real-world applications. Take a look at some of my top AI creations:
+              With a passion for artificial intelligence, I&apos;ve built projects that showcase innovative AI solutions and real-world applications. Take a look at some of my top AI creations:
               </p>
 
                {/* Carousel */}
