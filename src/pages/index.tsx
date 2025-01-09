@@ -26,8 +26,8 @@ import {
 } from "@/components/ui/carousel";
 import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
-import { FaLinkedin, FaMedium, FaBlogger, FaGithubSquare } from "react-icons/fa"; // Example from react-icons
-
+import { FaLinkedin, FaMedium, FaBlogger, FaGithubSquare } from "react-icons/fa"; 
+import {SiStreamlit } from "react-icons/si";
 
 const aboutStats = [
   { label: "Years of experience", value: "3+" },
@@ -69,121 +69,181 @@ const services = [
 ];
 
 
-const projects = [
+const web_projects = [
   {
   title: "Crwn Clothing",
   description: "E-commerce platform for stylish clothing.",
   image: "/assets/crwn-clothing.webm",
   href: "https://crwn-clothing-jb.netlify.app/",
+  github:"https://github.com/Jaweria-B/crwn-clothing"
   },
   {
   title: "TinDog",
   description: "Interactive web app for finding perfect matches for your dog.",
   image: "/assets/tindog.webm",  
-  href: "https://jaweria-b.github.io/TinDog/"
+  href: "https://jaweria-b.github.io/TinDog/",
+  github:"https://github.com/Jaweria-B/tindog"
   },
   {
     title: "Monsters Rolodex",
     description: "A React.js app showcasing monster cards with names and emails.",
     image: "/assets/giphy-2.webp",
     href: "https://monsters-rolodex-jb.vercel.app/",
+    github:"https://github.com/Jaweria-B/monsters-rolodex-v2"
   },
   {
-    "title": "Drum Kit",
-    "description": "A drum kit which plays drum sounds on clicking buttons or pressing keyboard keys.",
-    "image": "/assets/drum-kit.png",
-    "href": "https://jaweria-b.github.io/Drum-Kit/"
+    title: "Drum Kit",
+    description: "A drum kit which plays drum sounds on clicking buttons or pressing keyboard keys.",
+    image: "/assets/drum-kit.png",
+    href: "https://jaweria-b.github.io/Drum-Kit/",
+    github:"https://github.com/Jaweria-B/drum-kit"
   },
   {
-    "title": "Simon Game",
-    "description": "A classic memory game recreated using HTML, CSS, JavaScript, and jQuery.",
-    "image": "/assets/simon.png",
-    "href": "https://jaweria-b.github.io/Simon-Game/"
+    title: "Simon Game",
+    description: "A classic memory game recreated using HTML, CSS, JavaScript, and jQuery.",
+    image: "/assets/simon.png",
+    href: "https://jaweria-b.github.io/Simon-Game/",
+    github:"https://github.com/Jaweria-B/simon-game"
   },
-  {
-    "title": "DNA Nucleotide Count App",
-    "description": "A Streamlit app to analyze DNA sequences by counting nucleotide composition.",
-    "image": "/assets/dna.png",
-    "href": "https://dna-nucleotide-count-jb.streamlit.app/"
-  },
-  {
-    "title": "Iris Flower Prediction App",
-    "description": "A Streamlit app that predicts Iris flower types.",
-    "image": "/assets/iris.png",
-    "href": "https://iris-flower-classification-jb.streamlit.app"
-  },  
   {
     title: "To Do List",
     description: "To-Do List application to view, add, and manage tasks efficiently.",
     image: "/assets/todolist.webm",
-    href: "https://github.com/Jaweria-B/to-do-list"
+    href: "https://github.com/Jaweria-B/to-do-list",
+    github:"https://github.com/Jaweria-B/to-do-list"
   },
   {
     title: "Airline Booking System",
     description: "To view available flights details, add passengers to flights, and manage accounts.",
     image: "/assets/flights.webm",
-    href: "https://github.com/Jaweria-B/airline"
+    href: "https://github.com/Jaweria-B/airline",
+    github:"https://github.com/Jaweria-B/airline"
   },
   {
     title: "Social Media Post Mechanism",
     description: "A project simulating posting of social media content.",
     image: "/assets/scrolling.webm",
-    href: "https://github.com/Jaweria-B/social-media-posts-mechanism"
+    href: "https://github.com/Jaweria-B/social-media-posts-mechanism",
+    github:""
   },
   {
     title: "Is It New Year?",
     description: "A Django-based app that checks if today is New Year's Day.",
     image: "/assets/no.png",
-    href: "https://github.com/Jaweria-B/is-it-new-year"
+    href: "https://github.com/Jaweria-B/is-it-new-year",
+    github: ""
   },
   {
     title: "Singlepages",
     description: "A collection of Applications demonstrating various content rendering techniques.",
     image: "/assets/pages.png",
-    href: "https://github.com/Jaweria-B/singlepages" 
+    href: "https://github.com/Jaweria-B/singlepages",
+    github: ""
   },
   {
     title: "React Counter Game",
     description: "A fun math game where users solve problems to reach a target score.",
     image: "/assets/mathtest.png",
-    href: "https://github.com/Jaweria-B/math-addition-test/"
+    href: "https://github.com/Jaweria-B/math-addition-test/",
+    github: ""
   },
   {
     title: "Task Manager",
     description: "Interactive web app to dynamically add and manage tasks.",
     image: "/assets/taskslist.png",
-    href: "https://github.com/Jaweria-B/tasks-list"
+    href: "https://github.com/Jaweria-B/tasks-list",
+    github: ""
   },
   {
     title: "Message Service",
     description: "A simple Node.js and Express project for displaying and managing messages.",
     image: "/assets/message-service.png",
     href: "https://github.com/Jweria-B/message-service",
+    github: ""
   },
   {
-    "title": "Portfolio Website",
-    "description": "A clone of personal portfolio showcasing skills, projects, and contact information.",
-    "image": "/assets/greenresume.png",
-    "href": "https://github.com/Jaweria-B/green-cloudy-portfolio-clone"
+    title: "Portfolio Website",
+    description: "A clone of personal portfolio showcasing skills, projects, and contact information.",
+    image: "/assets/greenresume.png",
+    href: "https://github.com/Jaweria-B/green-cloudy-portfolio-clone",
+    github: ""
   },
   {
-    "title": "Resume Site",
-    "description": "A simple personal website showcasing my profile, skills, and interests.",
-    "image": "/assets/htmlresume.png",
-    "href": "https://github.com/Jaweria-B/cv"
-  },
-  {
-    title: "This website",
-    description: "My personal website",
-    image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
+    title: "Resume Site",
+    description: "A simple personal website showcasing my profile, skills, and interests.",
+    image: "/assets/htmlresume.png",
+    href: "https://github.com/Jaweria-B/cv",
+    github: ""
   },
   {
     title: "Hello World",
     description: "A simple Django project that provides a basic greeting interface with dynamic URLs.",
     image: "/assets/hello.png",
     href: "https://github.com/jaweria-b/hello-world",
-  }  
+    github: ""
+  },
+  {
+    title: "This website",
+    description: "My personal website",
+    image: "/assets/portfolio.webm",
+    href: "https://github.com/wendoj/portfolio",
+  },  
+];
+
+const ml_projects = [
+  {
+    title: "Iris Flower Prediction App",
+    description: "A Streamlit app that predicts Iris flower types.",
+    image: "/assets/iris.png",
+    href: "https://iris-flower-classification-jb.streamlit.app",
+    github:"https://github.com/Jaweria-B/iris-flower-classification"
+  },
+  {
+    title: "DNA Nucleotide Count App",
+    description: "A Streamlit app to analyze DNA sequences by counting nucleotide composition.",
+    image: "/assets/dna.png",
+    href: "https://dna-nucleotide-count-jb.streamlit.app/",
+    github:"https://github.com/Jaweria-B/bioinformatics-dna-app"
+
+  },
+  {
+    title: "Penguins Specie Classification App",
+    description: "A Streamlit app that predicts Penguins Species.",
+    image: "/assets/penguins.png",
+    href: "https://penguins-classification-jb.streamlit.app",
+    github:"https://github.com/Jaweria-B/penguins-specie-classification"
+  },
+  {
+    title: "Stock Price Tracker App",
+    description: "Tracks real-time stock prices of Amazon, Apple, and Microsoft.",
+    image: "/assets/stocks.png",
+    href: "https://simple-stock-price.streamlit.app",
+    github:"https://github.com/Jaweria-B/simple-stock-price"
+  },
+  {
+    title: "Face Detection App",
+    description: "Uses face detection model to detect faces in a picture.",
+    image: "/assets/face.png",
+    href: "https://face-detection-model-jb.streamlit.app",
+    github:"https://github.com/Jaweria-B/face-detection-model"
+  },
+  {
+    title: "S&P Stocks Explorer App",
+    description: "retrieves data about companies listed on the S&P 500 index.",
+    image: "/assets/sp.png",
+    href: "https://sp-500-explorer.streamlit.app/",
+    github:"https://github.com/Jaweria-B/S-P-500-Explorer"
+  },
+];
+
+const ai_projects = [
+  {
+    title: "StoryVerse AI",
+    description: "Generates captivating stories with images, text, and audio.",
+    image: "/assets/story.png",
+    href: "https://storyverse-ai.streamlit.app",
+    github:"https://github.com/Jaweria-B/Media-App"
+  },
 ];
 
 // const services = [
@@ -224,8 +284,9 @@ function SocialIcons() {
   const socialLinks = [
     { href: "https://www.linkedin.com/in/jaweria-batool/", icon: <FaLinkedin size={40} />, tooltip: "LinkedIn" },
     { href: "https://github.com/Jaweria-B", icon: <FaGithubSquare size={40} />, tooltip: "GitHub" },
+    { href: "https://share.streamlit.io/user/jaweria-b", icon: <SiStreamlit size={40} />, tooltip: "Streamlit" },
     { href: "https://medium.com/@jaweria_", icon: <FaMedium size={40} />, tooltip: "Medium" },
-    { href: "https://hi-jaweria.blogspot.com/", icon: <FaBlogger size={40} />, tooltip: "Blogger" },
+    // { href: "https://hi-jaweria.blogspot.com/", icon: <FaBlogger size={40} />, tooltip: "Blogger" },
   ];
 
   return (
@@ -264,9 +325,20 @@ function SocialIcons() {
 export default function Home() {
   const refScrollContainer = useRef(null);
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
-  const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null);
-  const [current, setCurrent] = useState<number>(0);
-  const [count, setCount] = useState<number>(0);
+
+  const [carouselApiWeb, setCarouselApiWeb] = useState<CarouselApi | null>(null);
+  const [carouselApiML, setCarouselApiML] = useState<CarouselApi | null>(null);
+  const [carouselApiAI, setCarouselApiAI] = useState<CarouselApi | null>(null);
+
+  const [currentWeb, setCurrentWeb] = useState<number>(0);
+  const [countWeb, setCountWeb] = useState<number>(0);
+
+  const [currentML, setCurrentML] = useState<number>(0);
+  const [countML, setCountML] = useState<number>(0);
+
+  const [currentAI, setCurrentAI] = useState<number>(0);
+  const [countAI, setCountAI] = useState<number>(0);
+
 
   // handle scroll
   useEffect(() => {
@@ -311,15 +383,37 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (!carouselApi) return;
+    if (!carouselApiWeb) return;
 
-    setCount(carouselApi.scrollSnapList().length);
-    setCurrent(carouselApi.selectedScrollSnap() + 1);
+    setCountWeb(carouselApiWeb.scrollSnapList().length);
+    setCurrentWeb(carouselApiWeb.selectedScrollSnap() + 1);
 
-    carouselApi.on("select", () => {
-      setCurrent(carouselApi.selectedScrollSnap() + 1);
+    carouselApiWeb.on("select", () => {
+      setCurrentWeb(carouselApiWeb.selectedScrollSnap() + 1);
     });
-  }, [carouselApi]);
+  }, [carouselApiWeb]);
+
+  useEffect(() => {
+    if (!carouselApiML) return;
+
+    setCountML(carouselApiML.scrollSnapList().length);
+    setCurrentML(carouselApiML.selectedScrollSnap() + 1);
+  
+    carouselApiML.on("select", () => {
+      setCurrentML(carouselApiML.selectedScrollSnap() + 1);
+    });
+  }, [carouselApiML]);  
+
+  useEffect(() => {
+    if (!carouselApiAI) return;
+  
+    setCountAI(carouselApiAI.scrollSnapList().length);
+    setCurrentAI(carouselApiAI.selectedScrollSnap() + 1);
+  
+    carouselApiAI.on("select", () => {
+      setCurrentAI(carouselApiAI.selectedScrollSnap() + 1);
+    });
+  }, [carouselApiAI]);  
 
   // card hover effect
   useEffect(() => {
@@ -500,88 +594,265 @@ export default function Home() {
             <span className="text-gradient clash-grotesk text-4xl font-semibold tracking-tighter mb-40">
               ✨ Projects
             </span>
-            <h2 className="mt-10 text-4xl font-semibold tracking-tight tracking-tighter xl:text-6xl">
-              Web Development
-            </h2>
-            <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;ve worked on a wide range of web development projects, utilizing both core technologies as well as powerful frameworks. Here are some of my favorites:
-            </p>
 
-            {/* Carousel */}
-            <div className="mt-14 p-1">
-              <Carousel setApi={setCarouselApi} className="w-full">
-                <CarouselContent>
-                  {projects.map((project) => (
-                    <CarouselItem key={project.title} className="md:basis-1/2">
-                      <Card id="tilt">
-                        <CardHeader className="p-0">
-                          <Link href={project.href} target="_blank" passHref>
-                            {project.image.endsWith(".webm") ? (
-                              <video
-                                src={project.image}
-                                autoPlay
-                                loop
-                                muted
-                                className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
-                              />
-                            ) : (
-                              <Image
-                                src={project.image}
-                                alt={project.title}
-                                width={600}
-                                height={300}
-                                quality={100}
-                                className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
-                              />
-                            )}
-                          </Link>
-                        </CardHeader>
-                        <CardContent className="absolute bottom-0 w-full bg-background/50 backdrop-blur">
-                          <div className="border-t border-white/5 p-4 flex justify-between items-center tracking-tighter">
-                            {/* Title and Description */}
-                            <div>
-                              <CardTitle className="text-lg text-gray-300 font-black">
-                                {project.title}
-                              </CardTitle>
-                              <CardTitle className="font-normal text-base">
-                                {project.description}
-                              </CardTitle>
-                            </div>
+            <div>
+              <h2 className="mt-20 text-4xl font-semibold tracking-tighter xl:text-6xl">
+                Web Development
+              </h2>
+              <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
+                I&apos;ve worked on a wide range of web development projects, utilizing both core technologies as well as powerful frameworks. Here are some of my favorites:
+              </p>
 
-                            {/* GitHub Icon with Link */}
-                            <a
-                              href={project.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-gray-300 hover:text-gray-50"
-                              aria-label="GitHub"
-                            >
-                              {/* Replace with an actual GitHub icon */}
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                                className="h-8 w-8"
+              {/* Carousel */}
+              <div className="mt-14 p-1">
+                <Carousel setApi={setCarouselApiWeb} className="w-full">
+                  <CarouselContent>
+                    {web_projects.map((project) => (
+                      <CarouselItem key={project.title} className="md:basis-1/2">
+                        <Card id="tilt">
+                          <CardHeader className="p-0">
+                            <Link href={project.href} target="_blank" passHref>
+                              {project.image.endsWith(".webm") ? (
+                                <video
+                                  src={project.image}
+                                  autoPlay
+                                  loop
+                                  muted
+                                  className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
+                                />
+                              ) : (
+                                <Image
+                                  src={project.image}
+                                  alt={project.title}
+                                  width={600}
+                                  height={300}
+                                  quality={100}
+                                  className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
+                                />
+                              )}
+                            </Link>
+                          </CardHeader>
+                          <CardContent className="absolute bottom-0 w-full bg-background/50 backdrop-blur">
+                            <div className="border-t border-white/5 p-4 flex justify-between items-center tracking-tighter">
+                              {/* Title and Description */}
+                              <div>
+                                <CardTitle className="text-lg text-gray-300 font-black">
+                                  {project.title}
+                                </CardTitle>
+                                <CardTitle className="font-normal text-base">
+                                  {project.description}
+                                </CardTitle>
+                              </div>
+
+                              {/* GitHub Icon with Link */}
+                              <a
+                                href={project.github ? project.github : project.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-300 hover:text-gray-50"
+                                aria-label="GitHub"
                               >
-                                <path d="M12 .296c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.091-.745.083-.729.083-.729 1.205.084 1.838 1.234 1.838 1.234 1.07 1.834 2.807 1.304 3.495.997.108-.774.418-1.305.762-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.312.47-2.384 1.236-3.222-.124-.303-.535-1.524.116-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.552 3.298-1.23 3.298-1.23.653 1.653.242 2.874.118 3.176.768.838 1.236 1.91 1.236 3.222 0 4.61-2.807 5.62-5.479 5.92.43.371.824 1.102.824 2.222v3.293c0 .32.22.694.825.575 4.765-1.585 8.203-6.084 8.203-11.385 0-6.627-5.373-12-12-12z" />
-                              </svg>
-                            </a>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-              </Carousel>
-              <div className="py-2 text-center text-sm text-muted-foreground">
-                <span className="font-semibold">
-                  {current} / {count}
-                </span>{" "}
-                projects
+                                {/* Replace with an actual GitHub icon */}
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                  className="h-8 w-8"
+                                >
+                                  <path d="M12 .296c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.091-.745.083-.729.083-.729 1.205.084 1.838 1.234 1.838 1.234 1.07 1.834 2.807 1.304 3.495.997.108-.774.418-1.305.762-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.312.47-2.384 1.236-3.222-.124-.303-.535-1.524.116-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.552 3.298-1.23 3.298-1.23.653 1.653.242 2.874.118 3.176.768.838 1.236 1.91 1.236 3.222 0 4.61-2.807 5.62-5.479 5.92.43.371.824 1.102.824 2.222v3.293c0 .32.22.694.825.575 4.765-1.585 8.203-6.084 8.203-11.385 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                              </a>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
+                <div className="py-2 text-center text-sm text-muted-foreground">
+                  <span className="font-semibold">
+                    {currentWeb} / {countWeb}
+                  </span>{" "}
+                  projects
+                </div>
+              </div>
+
+            </div>
+
+            {/* ------------- */}
+            <div>
+              <h2 className="mt-40 text-4xl font-semibold tracking-tighter xl:text-6xl">
+                Mahine Learning
+              </h2>
+              <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
+                I've explored various machine learning techniques, creating intuitive applications that turn data into actionable insights. Here are some of my favorite projects:
+              </p>
+
+              {/* Carousel */}
+              <div className="mt-14 p-1">
+                <Carousel setApi={setCarouselApiML} className="w-full">
+                  <CarouselContent>
+                    {ml_projects.map((project) => (
+                      <CarouselItem key={project.title} className="md:basis-1/2">
+                        <Card id="tilt">
+                          <CardHeader className="p-0">
+                            <Link href={project.href} target="_blank" passHref>
+                              {project.image.endsWith(".webm") ? (
+                                <video
+                                  src={project.image}
+                                  autoPlay
+                                  loop
+                                  muted
+                                  className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
+                                />
+                              ) : (
+                                <Image
+                                  src={project.image}
+                                  alt={project.title}
+                                  width={600}
+                                  height={300}
+                                  quality={100}
+                                  className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
+                                />
+                              )}
+                            </Link>
+                          </CardHeader>
+                          <CardContent className="absolute bottom-0 w-full bg-background/50 backdrop-blur">
+                            <div className="border-t border-white/5 p-4 flex justify-between items-center tracking-tighter">
+                              {/* Title and Description */}
+                              <div>
+                                <CardTitle className="text-lg text-gray-300 font-black">
+                                  {project.title}
+                                </CardTitle>
+                                <CardTitle className="font-normal text-base">
+                                  {project.description}
+                                </CardTitle>
+                              </div>
+
+                              {/* GitHub Icon with Link */}
+                              <a
+                                href={project.github ? project.github : project.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-300 hover:text-gray-50"
+                                aria-label="GitHub"
+                              >
+                                {/* Replace with an actual GitHub icon */}
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                  className="h-8 w-8"
+                                >
+                                  <path d="M12 .296c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.091-.745.083-.729.083-.729 1.205.084 1.838 1.234 1.838 1.234 1.07 1.834 2.807 1.304 3.495.997.108-.774.418-1.305.762-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.312.47-2.384 1.236-3.222-.124-.303-.535-1.524.116-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.552 3.298-1.23 3.298-1.23.653 1.653.242 2.874.118 3.176.768.838 1.236 1.91 1.236 3.222 0 4.61-2.807 5.62-5.479 5.92.43.371.824 1.102.824 2.222v3.293c0 .32.22.694.825.575 4.765-1.585 8.203-6.084 8.203-11.385 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                              </a>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
+                <div className="py-2 text-center text-sm text-muted-foreground">
+                  <span className="font-semibold">
+                    {currentML} / {countML}
+                  </span>{" "}
+                  projects
+                </div>
               </div>
             </div>
+
+            {/* ------------- */}
+            <div>
+              <h2 className="mt-20 text-4xl font-semibold tracking-tighter xl:text-6xl">
+                AI
+              </h2>
+              <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
+              With a passion for artificial intelligence, I've built projects that showcase innovative AI solutions and real-world applications. Take a look at some of my top AI creations:
+              </p>
+
+               {/* Carousel */}
+               <div className="mt-14 p-1">
+                <Carousel setApi={setCarouselApiAI} className="w-full">
+                  <CarouselContent>
+                    {ai_projects.map((project) => (
+                      <CarouselItem key={project.title} className="md:basis-1/2">
+                        <Card id="tilt">
+                          <CardHeader className="p-0">
+                            <Link href={project.href} target="_blank" passHref>
+                              {project.image.endsWith(".webm") ? (
+                                <video
+                                  src={project.image}
+                                  autoPlay
+                                  loop
+                                  muted
+                                  className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
+                                />
+                              ) : (
+                                <Image
+                                  src={project.image}
+                                  alt={project.title}
+                                  width={600}
+                                  height={300}
+                                  quality={100}
+                                  className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
+                                />
+                              )}
+                            </Link>
+                          </CardHeader>
+                          <CardContent className="absolute bottom-0 w-full bg-background/50 backdrop-blur">
+                            <div className="border-t border-white/5 p-4 flex justify-between items-center tracking-tighter">
+                              {/* Title and Description */}
+                              <div>
+                                <CardTitle className="text-lg text-gray-300 font-black">
+                                  {project.title}
+                                </CardTitle>
+                                <CardTitle className="font-normal text-base">
+                                  {project.description}
+                                </CardTitle>
+                              </div>
+
+                              {/* GitHub Icon with Link */}
+                              <a
+                                href={project.github ? project.github : project.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-300 hover:text-gray-50"
+                                aria-label="GitHub"
+                              >
+                                {/* Replace with an actual GitHub icon */}
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                  className="h-8 w-8"
+                                >
+                                  <path d="M12 .296c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.091-.745.083-.729.083-.729 1.205.084 1.838 1.234 1.838 1.234 1.07 1.834 2.807 1.304 3.495.997.108-.774.418-1.305.762-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.312.47-2.384 1.236-3.222-.124-.303-.535-1.524.116-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.552 3.298-1.23 3.298-1.23.653 1.653.242 2.874.118 3.176.768.838 1.236 1.91 1.236 3.222 0 4.61-2.807 5.62-5.479 5.92.43.371.824 1.102.824 2.222v3.293c0 .32.22.694.825.575 4.765-1.585 8.203-6.084 8.203-11.385 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                              </a>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
+                <div className="py-2 text-center text-sm text-muted-foreground">
+                  <span className="font-semibold">
+                    {currentAI} / {countAI}
+                  </span>{" "}
+                  projects
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
 
