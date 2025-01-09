@@ -204,12 +204,14 @@ const CarouselPrevious = React.forwardRef<
       variant={variant}
       size={size}
       className={cn(
-        "hidden h-8 w-8 rounded-full sm:absolute",
+        "h-8 w-8 rounded-full absolute z-10",
+        "shadow-[0px_4px_15px_5px_rgba(255,255,255,0.7)] hover:shadow-[0px_4px_20px_7px_rgba(255,255,255,0.9)] focus:shadow-[0px_4px_20px_7px_rgba(255,255,255,1)]",
+        "ring-2 ring-white ring-opacity-50 hover:ring-opacity-80 focus:ring-opacity-100",
         orientation === "horizontal"
           ? "-left-12 top-1/2 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
-        className,
-      )}
+        className
+      )}      
       disabled={!canScrollPrev}
       onClick={scrollPrev}
       {...props}
@@ -233,7 +235,9 @@ const CarouselNext = React.forwardRef<
       variant={variant}
       size={size}
       className={cn(
-        "hidden h-8 w-8 rounded-full sm:absolute",
+        " h-8 w-8 rounded-full absolute",
+        "shadow-[0px_4px_15px_5px_rgba(255,255,255,0.7)] hover:shadow-[0px_4px_20px_7px_rgba(255,255,255,0.9)] focus:shadow-[0px_4px_20px_7px_rgba(255,255,255,1)]",
+        "ring-2 ring-white ring-opacity-50 hover:ring-opacity-80 focus:ring-opacity-100",
         orientation === "horizontal"
           ? "-right-12 top-1/2 -translate-y-1/2"
           : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",

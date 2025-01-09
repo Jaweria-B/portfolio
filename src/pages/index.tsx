@@ -35,39 +35,6 @@ const aboutStats = [
   { label: "Projects", value: "20+" },
 ];
 
-// const projects = [
-//   {
-//     title: "Personal Blog",
-//     description: "Sharing insights on software engineering, technology trends, and personal growth.",
-//     image: "/assets/personal_blog.png",  // Add image for the blog
-//     href: "https://medium.com/@jaweria",
-//   },
-//   {
-//     title: "Freelance Writing Portfolio",
-//     description: "A showcase of my freelance writing projects focused on Python, AI, and tech.",
-//     image: "/assets/freelance_portfolio.png",  // Add relevant image
-//     href: "https://jaweria.medium.com/",
-//   },
-//   {
-//     title: "AI-Driven Email Automation Tool",
-//     description: "A tool for automating personalized emails for scholarship applications and freelance outreach.",
-//     image: "/assets/email_tool.png",  // Add image for the tool
-//     href: "#",  // Add link when ready
-//   },
-//   {
-//     title: "Tech Trends in AI & Python",
-//     description: "A collection of my articles and thoughts on the latest advancements in AI and Python.",
-//     image: "/assets/tech_trends.png",  // Add image for the blog series
-//     href: "https://medium.com/@jaweria",
-//   },
-//   {
-//     title: "Student Portfolio - Software Engineering",
-//     description: "Showcasing my journey through the world of software engineering and tech projects.",
-//     image: "/assets/student_portfolio.png",  // Add image for the portfolio
-//     href: "https://github.com/jaweria",
-//   },
-// ];
-
 const services = [
   {
     service: "Content Writing",
@@ -101,13 +68,6 @@ const services = [
   },
 ];
 
-//  ------------ CHANGED ------------
-
-// const aboutStats = [
-//   { label: "Years of experience", value: "3+" },
-//   { label: "Technologies mastered", value: "5+" },
-//   { label: "Companies worked with", value: "15+" },
-// ];
 
 const projects = [
   {
@@ -130,7 +90,7 @@ const projects = [
   },
   {
     "title": "Drum Kit",
-    "description": "An interactive drum kit which can play drum sounds on clicking buttons or pressing keyboard keys.",
+    "description": "A drum kit which plays drum sounds on clicking buttons or pressing keyboard keys.",
     "image": "/assets/drum-kit.png",
     "href": "https://jaweria-b.github.io/Drum-Kit/"
   },
@@ -141,14 +101,14 @@ const projects = [
     "href": "https://jaweria-b.github.io/Simon-Game/"
   },
   {
-    "title": "DNA Nucleotide Count Web App",
-    "description": "A web app built with Streamlit to analyze DNA sequences by counting nucleotide composition.",
+    "title": "DNA Nucleotide Count App",
+    "description": "A Streamlit app to analyze DNA sequences by counting nucleotide composition.",
     "image": "/assets/dna.png",
     "href": "https://dna-nucleotide-count-jb.streamlit.app/"
   },
   {
-    "title": "Simple Iris Flower Prediction App",
-    "description": "A Streamlit app that predicts Iris flower types using user-provided dimensions for sepal and petal.",
+    "title": "Iris Flower Prediction App",
+    "description": "A Streamlit app that predicts Iris flower types.",
     "image": "/assets/iris.png",
     "href": "https://iris-flower-classification-jb.streamlit.app"
   },  
@@ -160,12 +120,12 @@ const projects = [
   },
   {
     title: "Airline Booking System",
-    description: "Airline Booking System to view available flights, see flight details, add passengers to flights, and manage accounts.",
+    description: "To view available flights details, add passengers to flights, and manage accounts.",
     image: "/assets/flights.webm",
     href: "https://github.com/Jaweria-B/airline"
   },
   {
-    title: "social-media-post-mechanism",
+    title: "Social Media Post Mechanism",
     description: "A project simulating posting of social media content.",
     image: "/assets/scrolling.webm",
     href: "https://github.com/Jaweria-B/social-media-posts-mechanism"
@@ -177,14 +137,14 @@ const projects = [
     href: "https://github.com/Jaweria-B/is-it-new-year"
   },
   {
-    title: "singlepages",
-    description: "A collection of Single Page Applications demonstrating various content rendering techniques.",
+    title: "Singlepages",
+    description: "A collection of Applications demonstrating various content rendering techniques.",
     image: "/assets/pages.png",
     href: "https://github.com/Jaweria-B/singlepages" 
   },
   {
     title: "React Counter Game",
-    description: "A fun math game built with React where users solve problems to reach a target score.",
+    description: "A fun math game where users solve problems to reach a target score.",
     image: "/assets/mathtest.png",
     href: "https://github.com/Jaweria-B/math-addition-test/"
   },
@@ -489,22 +449,6 @@ export default function Home() {
             data-scroll-position="top"
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
-            {/* <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m an experienced full-stack developer proficient in{" "}
-              <Link
-                href="https://create.t3.gg/"
-                target="_blank"
-                className="underline"
-              >
-                TypeScript, Tailwind, and Next.js
-              </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
-            </h2> */}
-
             <h2 className="py-16 pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
               I&apos;m a passionate Software Engineering student with a strong focus on{" "}
               <Link
@@ -553,19 +497,18 @@ export default function Home() {
             </div>
           </div>
           <div data-scroll data-scroll-speed=".4" className="my-64">
-            <span className="text-gradient clash-grotesk text-sm font-semibold tracking-tighter">
+            <span className="text-gradient clash-grotesk text-4xl font-semibold tracking-tighter mb-40">
               ✨ Projects
             </span>
-            <h2 className="mt-3 text-4xl font-semibold tracking-tight tracking-tighter xl:text-6xl">
-              Streamlined digital experiences.
+            <h2 className="mt-10 text-4xl font-semibold tracking-tight tracking-tighter xl:text-6xl">
+              Web Development
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;ve worked on a variety of projects, from small websites to
-              large-scale web applications. Here are some of my favorites:
+              I&apos;ve worked on a wide range of web development projects, utilizing both core technologies as well as powerful frameworks. Here are some of my favorites:
             </p>
 
             {/* Carousel */}
-            <div className="mt-14">
+            <div className="mt-14 p-1">
               <Carousel setApi={setCarouselApi} className="w-full">
                 <CarouselContent>
                   {projects.map((project) => (
@@ -594,9 +537,36 @@ export default function Home() {
                           </Link>
                         </CardHeader>
                         <CardContent className="absolute bottom-0 w-full bg-background/50 backdrop-blur">
-                          <CardTitle className="border-t border-white/5 p-4 text-base font-normal tracking-tighter">
-                            {project.description}
-                          </CardTitle>
+                          <div className="border-t border-white/5 p-4 flex justify-between items-center tracking-tighter">
+                            {/* Title and Description */}
+                            <div>
+                              <CardTitle className="text-lg text-gray-300 font-black">
+                                {project.title}
+                              </CardTitle>
+                              <CardTitle className="font-normal text-base">
+                                {project.description}
+                              </CardTitle>
+                            </div>
+
+                            {/* GitHub Icon with Link */}
+                            <a
+                              href={project.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-gray-300 hover:text-gray-50"
+                              aria-label="GitHub"
+                            >
+                              {/* Replace with an actual GitHub icon */}
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                                className="h-8 w-8"
+                              >
+                                <path d="M12 .296c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.091-.745.083-.729.083-.729 1.205.084 1.838 1.234 1.838 1.234 1.07 1.834 2.807 1.304 3.495.997.108-.774.418-1.305.762-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.312.47-2.384 1.236-3.222-.124-.303-.535-1.524.116-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.552 3.298-1.23 3.298-1.23.653 1.653.242 2.874.118 3.176.768.838 1.236 1.91 1.236 3.222 0 4.61-2.807 5.62-5.479 5.92.43.371.824 1.102.824 2.222v3.293c0 .32.22.694.825.575 4.765-1.585 8.203-6.084 8.203-11.385 0-6.627-5.373-12-12-12z" />
+                              </svg>
+                            </a>
+                          </div>
                         </CardContent>
                       </Card>
                     </CarouselItem>
