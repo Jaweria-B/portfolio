@@ -85,11 +85,25 @@ const web_projects = [
   github:"https://github.com/Jaweria-B/tindog"
   },
   {
+    title: "Daily Journal",
+    description: "A blog site to create, read, update, and delete posts.",
+    image: "/assets/blog-3.png",
+    href: "https://github.com/Jaweria-B/journey-junction-blogs",
+    github: ""
+  },
+  {
     title: "Monsters Rolodex",
     description: "A React.js app showcasing monster cards with names and emails.",
     image: "/assets/giphy-2.webp",
     href: "https://monsters-rolodex-jb.vercel.app/",
     github:"https://github.com/Jaweria-B/monsters-rolodex-v2"
+  },
+  {
+    title: "To-Do-List Website",
+    description: "Stores tasks in database for today's work and your work list",
+    image: "/assets/todo-2.png",
+    href: "https://github.com/Jaweria-B/to-do-list-v2",
+    github: ""
   },
   {
     title: "Drum Kit",
@@ -106,18 +120,39 @@ const web_projects = [
     github:"https://github.com/Jaweria-B/simon-game"
   },
   {
+    title: "Dice Game",
+    description: "A dice rolling game where two players roll dice to see who wins.",
+    image: "/assets/dice.png",
+    href: "https://jaweria-b.github.io/dice-game/",
+    github: "https://github.com/Jaweria-B/dice-game"
+  },
+  {
+    title: "To-Do-List Website",
+    description: "Stores tasks for today's work and your work list",
+    image: "/assets/todo.png",
+    href: "https://github.com/Jaweria-B/to-do-list-v1",
+    github: ""
+  },
+  {
+    title: "Blog Site",
+    description: "A blog site to create, read, update, and delete posts.",
+    image: "/assets/blog-2.png",
+    href: "https://github.com/Jaweria-B/blog-project",
+    github: ""
+  },  
+  {
     title: "To Do List",
     description: "To-Do List application to view, add, and manage tasks efficiently.",
     image: "/assets/todolist.webm",
     href: "https://github.com/Jaweria-B/to-do-list",
-    github:"https://github.com/Jaweria-B/to-do-list"
+    github:""
   },
   {
     title: "Airline Booking System",
     description: "To view available flights details, add passengers to flights, and manage accounts.",
     image: "/assets/flights.webm",
     href: "https://github.com/Jaweria-B/airline",
-    github:"https://github.com/Jaweria-B/airline"
+    github:""
   },
   {
     title: "Social Media Post Mechanism",
@@ -159,6 +194,13 @@ const web_projects = [
     description: "A simple Node.js and Express project for displaying and managing messages.",
     image: "/assets/message-service.png",
     href: "https://github.com/Jweria-B/message-service",
+    github: ""
+  },
+  {
+    title: "BMI Calculator",
+    description: "Calculates BMI through weight and height.",
+    image: "/assets/bmi.png",
+    href: "https://github.com/Jaweria-B/bmi-calculator",
     github: ""
   },
   {
