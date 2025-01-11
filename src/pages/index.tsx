@@ -9,6 +9,9 @@ import {
   SearchCheck,
   Eye,
   MonitorSmartphone,
+  Bot,
+  User,
+  Webcam
 } from "lucide-react";
 import { TriangleDownIcon } from "@radix-ui/react-icons";
 import Spline from "@splinetool/react-spline";
@@ -32,39 +35,64 @@ import {SiStreamlit } from "react-icons/si";
 const aboutStats = [
   { label: "Years of experience", value: "3+" },
   { label: "Technologies mastered", value: "10+" },
-  { label: "Projects", value: "20+" },
+  { label: "Projects", value: "30+" },
 ];
 
 const services = [
   {
-    service: "Content Writing",
+    service: "Web Development",
     description:
-      "Providing well-researched, engaging, and technically accurate content on topics related to AI, Python, and software engineering.",
+      "Building responsive, user-friendly web applications, ranging from simple to complex designs, using modern frameworks like React.js, Next.js, Django.",
     icon: Code2,
   },
-  {
-    service: "Technical Writing",
-    description:
-      "Crafting detailed technical articles, tutorials, and documentation for developers and tech enthusiasts.",
-    icon: Frame,
-  },
+  // {
+  //   service: "Technical Writing",
+  //   description:
+  //     "Creating comprehensive technical articles, tutorials, and documentation for developers, tech enthusiasts, and businesses.",
+  //   icon: Frame,
+  // },
   {
     service: "Python Consulting",
     description:
-      "Offering consulting and support on Python development, from code optimization to machine learning projects.",
+      "Providing expert guidance on Python development, including code optimization, automation, and machine learning solutions.",
     icon: SearchCheck,
   },
   {
-    service: "AI Integration in Apps",
+    service: "AI and Machine Learning Solutions",
     description:
-      "Helping businesses integrate AI-driven solutions into their applications, enhancing functionality and performance.",
+      "Designing and implementing AI-driven systems, from predictive analytics to neural network-based applications, tailored to your business needs.",
     icon: MonitorSmartphone,
   },
   {
-    service: "Freelance Writing Mentorship",
+    service: "Chatbot Development",
     description:
-      "Guiding aspiring writers in the freelance industry with tips and strategies for building a successful career.",
+      "Developing intelligent chatbots using Python and NLP techniques to enhance customer interactions and automate workflows.",
     icon: Eye,
+  },
+  
+  {
+    service: "Web Scraping and Data Extraction",
+    description:
+      "Developing robust web scraping tools to gather, clean, and analyze data efficiently for various applications.",
+    icon: Frame,
+  },
+  {
+    service: "AI Integration in Applications",
+    description:
+      "Helping businesses seamlessly integrate AI and machine learning solutions into their software and processes to enhance productivity.",
+    icon: Webcam,
+  },
+  {
+    service: "Portfolio Development",
+    description:
+      "Assisting professionals in creating impactful portfolios to showcase their skills, projects, and achievements.",
+    icon: User,
+  },
+  {
+    service: "API Integration and Automation",
+    description:
+      "Streamlining workflows by integrating APIs and automating processes to boost efficiency and reduce manual effort.",
+    icon: Bot,
   },
 ];
 
@@ -635,17 +663,13 @@ export default function Home() {
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
             <h2 className="py-16 pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m a passionate Software Engineering student with a strong focus on{" "}
-              <Link
-                href="https://www.python.org/"
-                target="_blank"
-                className="underline"
-              >
-                Python, AI, and web development
-              </Link>{" "}
-              . I thrive on solving complex problems, developing innovative solutions, and constantly expanding my skill set. Whether it’s through coding, creating content, or offering insights into emerging technologies, I aim to make a meaningful impact in the tech world.
+              I&apos;m a dedicated Software Engineering student with a proven track record in <span className="underline"> Python</span>, <span className="underline"> AI</span>, and <span className="underline">web development</span>
+              . My expertise spans building dynamic web applications, creating intuitive machine learning models, and developing AI-powered tools that solve real-world problems. 
+              <br />
+              With projects ranging from e-commerce platforms and interactive games to neural network-based classifiers and predictive analytics apps, I take pride in crafting solutions that are both innovative and impactful. 
+              Driven by a passion for technology and a commitment to continuous learning, I aim to push boundaries and contribute meaningfully to the tech industry.
             </h2>
-
+          
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
                 <div
