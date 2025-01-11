@@ -256,11 +256,25 @@ const ml_projects = [
     github:"https://github.com/Jaweria-B/penguins-specie-classification"
   },
   {
+    title: "Banknotes Classifier",
+    description: "A neural network-based system for authenticating and classifying banknotes.",
+    image: "/assets/note.webp",
+    href: "https://github.com/Jaweria-B/banknotes-classification-neural-network",
+    github:""
+  },
+  {
     title: "Stock Price Tracker App",
     description: "Tracks real-time stock prices of Amazon, Apple, and Microsoft.",
     image: "/assets/stocks.png",
     href: "https://simple-stock-price.streamlit.app",
     github:"https://github.com/Jaweria-B/simple-stock-price"
+  },
+  {
+    title: "Digit Recognition App",
+    description: "Predicts digit from drawing using a pre-trained neural network model.",
+    image: "/assets/pencil.png",
+    href: "https://github.com/Jaweria-B/digit-recognition-app",
+    github:"https://digit-recognition-jb.streamlit.app"
   },
   {
     title: "Face Detection App",
@@ -271,10 +285,38 @@ const ml_projects = [
   },
   {
     title: "S&P Stocks Explorer App",
-    description: "retrieves data about companies listed on the S&P 500 index.",
+    description: "Retrieves data about companies listed on the S&P 500 index.",
     image: "/assets/sp.png",
     href: "https://sp-500-explorer.streamlit.app/",
     github:"https://github.com/Jaweria-B/S-P-500-Explorer"
+  },
+  {
+    title: "Edge Detection Filter",
+    description: "Detects all the edges and corners in an image.",
+    image: "/assets/edge.png",
+    href: "https://edge-detection-app-jb.streamlit.app/",
+    github:"https://github.com/Jaweria-B/edge-detection-filter"
+  },
+  {
+    title: "NFL Stats (Rushing) Explorer",
+    description: "Explores NFL statistics, featuring dynamic data visualization and filtering options.",
+    image: "/assets/nfl.png",
+    href: "https://nfl-football-stats-explorer-jb.streamlit.app/",
+    github:"https://github.com/Jaweria-B/NFL-football-stats-explorer"
+  },
+  {
+    title: "Rain Prediction App",
+    description: "Predicts whether it will rain tomorrow based on user-provided weather parameters.",
+    image: "/assets/rain.png",
+    href: "https://rain-prediction-jb.streamlit.app",
+    github:"https://github.com/Jaweria-B/rain-prediction-app"
+  },
+  {
+    title: "NBA Player Stats Explorer",
+    description: "Analyzes NBA player stats with user-selected filters.",
+    image: "/assets/nba.png",
+    href: "https://eda-basketball-jb.streamlit.app/",
+    github:"https://github.com/Jaweria-B/eda-basketball"
   },
 ];
 
@@ -285,6 +327,13 @@ const ai_projects = [
     image: "/assets/story.png",
     href: "https://storyverse-ai.streamlit.app",
     github:"https://github.com/Jaweria-B/Media-App"
+  },
+  {
+    title: "Code Compass",
+    description: "Provides personalized learning paths, interactive quizzes, project inspirations.",
+    image: "/assets/code-compass.webp",
+    href: "https://github.com/Jaweria-B/code-compass",
+    github:""
   },
 ];
 
@@ -729,7 +778,7 @@ export default function Home() {
                 Mahine Learning
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-                I&apos;ve explored various machine learning techniques, creating intuitive applications that turn data into actionable insights. Here are some of my favorite projects:
+                I&apos;ve explored various machine learning and deep learning techniques, creating intuitive applications that turn data into actionable insights.
               </p>
 
               {/* Carousel */}
