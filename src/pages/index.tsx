@@ -404,7 +404,7 @@ function SocialIcons() {
     { href: "https://www.linkedin.com/in/jaweria-batool/", icon: <FaLinkedin size={40} />, tooltip: "LinkedIn" },
     { href: "https://github.com/Jaweria-B", icon: <FaGithubSquare size={40} />, tooltip: "GitHub" },
     { href: "https://share.streamlit.io/user/jaweria-b", icon: <SiStreamlit size={40} />, tooltip: "Streamlit" },
-    { href: "https://medium.com/@jaweria_", icon: <FaMedium size={40} />, tooltip: "Medium" },
+    // { href: "https://medium.com/@jaweria_", icon: <FaMedium size={40} />, tooltip: "Medium" },
     // { href: "https://hi-jaweria.blogspot.com/", icon: <FaBlogger size={40} />, tooltip: "Blogger" },
   ];
 
