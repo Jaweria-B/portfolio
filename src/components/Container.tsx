@@ -49,7 +49,9 @@ function handleClick(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
   if (href && href.startsWith("#")) {
     e.preventDefault();
     const section = document.querySelector(href);
-    scrollTo(section);
+    // On pages other than the homepage, go back to the homepage section.
+    if (section) scrollTo(section);
+    else window.location.assign(`/${href}`);
   }
 }
 
